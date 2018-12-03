@@ -8,7 +8,7 @@ const handler = createHandler({
 const app = new Koa();
 
 app.use(async (ctx) => {
-    ctx.body = '修改文案'
+    ctx.body = '为什么不打印'
 })
 
 app.listen(7777, () => {
