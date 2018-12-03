@@ -8,7 +8,7 @@ const handler = createHandler({
 const app = new Koa();
 
 app.use(async (ctx) => {
-    ctx.body = '自动部署'
+    ctx.body = '自动部署test'
 })
 
 app.listen(7777, () => {
