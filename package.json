@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "github-webhook-handler": "^0.7.1",
     "koa": "^2.6.2"
   }
 }
